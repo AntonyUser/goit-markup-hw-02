@@ -67,6 +67,10 @@ body {
     cursor: pointer;
 }
 
+.current-link {
+    color: var(--accent-color);
+}
+
 .contact-us-link {
     font-weight: 500;
     color: var(--secondary-text-color);
@@ -175,6 +179,11 @@ body {
 .portfolio-btn:focus {
     color: var(--hero-text-color);
     background-color: var(--accent-color);
+}
+
+.current-portfolio-btn {
+    background-color: var(--accent-color);
+    color: var(--hero-text-color);
 }
 
 .portfolio-title {
