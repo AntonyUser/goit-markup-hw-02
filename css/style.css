@@ -46,11 +46,11 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--primary-text-color);
+    color: var(--accent-color);
 }
 
-.logo span {
-    color: var(--accent-color);
+.logo-header {
+    color: var(--primary-text-color);
 }
 
 .nav-link {
